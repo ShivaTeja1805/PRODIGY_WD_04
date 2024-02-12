@@ -860,7 +860,7 @@ footer .social-icons{
         width:90%;
     }
     .aboutme-intro .qualifications{
-        height:48%;
+        height:auto;
         width: 90%;
         background-color: azure;
     }
