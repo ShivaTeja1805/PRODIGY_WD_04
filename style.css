@@ -11,10 +11,10 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    
+    height:100vh;
 }
 #home{
-    height: 100svh;
+    height: 100vh;
     /* background-color: burlywood; */
 }
 nav{
@@ -183,7 +183,7 @@ button a {
 
 /* ----------About-------------- */
 #about{
-    height:100svh;
+    height:100vh;
     background-image: linear-gradient(135deg, #13547a 10%, #80d0c7 100%);
 }
 .aboutme-intro{
@@ -324,7 +324,7 @@ button a {
 
 /* ----------Projects------------- */
 #projects{
-    height: 100svh;
+    height: 100vh;
     padding: 10vmin 15vmin 0;
     background-image: linear-gradient(135deg, #13547a 10%, #80d0c7 100%);
 }
@@ -422,7 +422,7 @@ button a {
 
 /* ---------Contact-------------------- */
 #contact{
-    height: 100svh;
+    height: 100vh;
     display: flex;
     padding-top: 10vmin;
     background-image: linear-gradient(135deg, #13547a 10%, #80d0c7 100%);
@@ -611,7 +611,7 @@ footer .social-icons{
         filter: drop-shadow(0px 3px 2px #FFB30F);
     }
     .intro{
-        height: 100svh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -621,10 +621,10 @@ footer .social-icons{
     }
     /* -----------About-me---------- */
     #about{
-        height:100svh
+        height:100vh
     }
     .aboutme-intro{
-        height: 100svh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -651,7 +651,7 @@ footer .social-icons{
 
     /* ----------Projects------------- */
 #projects{
-    height: 100svh;
+    height: 100vh;
     padding: 0vmin 0vmin 0;
 }
 .project-container{
@@ -702,7 +702,7 @@ footer .social-icons{
 /* -------------------------------- */
 /* ---------Contact-------------------- */
 #contact{
-    height: 100svh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding-top: 15vmin;
@@ -770,12 +770,13 @@ footer .social-icons{
     nav{
         height: 10vmin;
         padding: 0 1vmax;
+        position:fixed;
     }
     nav .sidenav-toggle{
         font-size: 2.5vmax;
     }
     .intro{
-        height: 100svh;
+        height: 100vh;
         display: flex;
         justify-content: space-between;
         flex-direction: column;
@@ -843,10 +844,10 @@ footer .social-icons{
     }
     /* -------ABOUT-ME-------------- */
     #about{
-        height:100svh
+        height:100vh
     }
     .aboutme-intro{
-        height: 100svh;
+        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -898,7 +899,7 @@ footer .social-icons{
 
     /* ----------Projects------------- */
 #projects{
-    height: 100svh;
+    height: 100vh;
     padding: 0vmin 0vmin 0;
 }
 .project-container{
@@ -957,7 +958,7 @@ footer .social-icons{
 /* -------------------------------- */
 /* ---------Contact-------------------- */
 #contact{
-    height: 100svh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     padding-top: 20vmin;
@@ -1033,7 +1034,7 @@ footer .social-icons{
     color: #FFB30F;
 } 
 .side-navbar{
-    height: 40svh;
+    height: 40vh;
     width: 100%;
     background-color: #333;
     padding: 2vmax 0;
